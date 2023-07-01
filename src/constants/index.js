@@ -1,22 +1,24 @@
 import {
   backend,
-  carrent,
+  car,
+  chessboard,
   creator,
   css,
   docker,
+  elvis,
   figma,
+  food,
   git,
+  grocery,
   html,
   javascript,
-  jobit,
   mobile,
   mongodb,
   nodejs,
+  pathfinder,
   reactjs,
   redux,
-  starbucks,
   tailwind,
-  tesla,
   threejs,
   typescript,
   web
@@ -119,7 +121,7 @@ const experiences = [
   {
     title: "Cashier",
     company_name: "Diehl Automotive of Robinson",
-    icon: starbucks,
+    icon: car,
     iconBg: "#383E56",
     date: "August 2021 - December 2022",
     points: [
@@ -130,7 +132,7 @@ const experiences = [
   {
     title: "Cash Office",
     company_name: "Giant Eagle",
-    icon: tesla,
+    icon: grocery,
     iconBg: "#E6DEDD",
     date: "August 2016 - August 2021",
     points: [
@@ -183,7 +185,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: pathfinder,
     source_code_link: "https://github.com/Mac-McFarland/Pathfinding-Visualizer.git",
   },
   {
@@ -196,7 +198,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: chessboard,
     source_code_link: "https://github.com/Mac-McFarland/Chess-with-NEAT.git",
   },
   {
@@ -213,7 +215,7 @@ const projects = [
         color: "text-green-500",
       },
     ],
-    image: jobit,
+    image: elvis,
     source_code_link: "https://github.com/Mac-McFarland/Guitar-Recorder.git",
   },
   {
@@ -234,7 +236,7 @@ const projects = [
         color: "text-violet-500"
       },
     ],
-    image: jobit,
+    image: food,
     source_code_link: "https://github.com/Mac-McFarland/Quick-Meal-Suggestions.git",
   },
 ];
